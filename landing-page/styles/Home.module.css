@@ -1,0 +1,20 @@
+.container {
+  color: #E216A4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.games-container {
+  margin: 20px 0;
+  width: 87vw;
+  min-height: 50vh;
+}

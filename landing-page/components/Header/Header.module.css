@@ -1,0 +1,33 @@
+.header {
+    width: 97vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+.title>h1 {
+    text-shadow: 3px 3px #c3e7f3, -3px -3px #443c55;
+    font-size: 50px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+.menu>button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #c3e7f3;
+}
