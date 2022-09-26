@@ -8,11 +8,11 @@ const Highlights = () => {
     <div className={styles.containerHighlights}>
       <h2>DESTAQUES</h2>
       <div className={styles.highlight}>
-        <button><Image src={LeftArrow} alt='leftArrow' /></button>
+        <Image layout='intrinsic' height={'80px'} src={LeftArrow} alt='leftArrow' />
         <div className={styles.highlightImage}>
           <img src='https://cdn.windowsreport.com/wp-content/uploads/2020/12/Cyberpunk-2077-Banner.jpg' alt='highlight' />
         </div>
-        <button><Image src={RightArrow} alt='rightArrow' /></button>
+        <Image layout='intrinsic' height={'80px'} src={RightArrow} alt='rightArrow' />
       </div>
     </div>
   )

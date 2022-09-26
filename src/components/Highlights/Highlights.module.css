@@ -1,31 +1,42 @@
 .containerHighlights {
     display: flex;
     flex-direction: column;
-    width: 87vw
+    width: 98vw;
+    padding: 5vw;
 }
 
 .highlight {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 70vw 1fr;
     justify-content: space-around;
     align-items: center;
-}
-
-.highlight>button {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
 }
 
 .highlightImage {
     align-self: center;
     margin: 15px 0;
-    max-width: 87%;
+    max-width: 100%;
     box-shadow: -18px -12px #443c55, 18px 12px #c3e7f3;
 }
 
 .highlightImage>img {
     width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .highlight {
+        grid-template-columns: 1fr 70vw 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .highlight {
+        grid-template-columns: 1fr 60vw 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .highlight {
+        grid-template-columns: 1fr 50vw 1fr;
+    }
 }

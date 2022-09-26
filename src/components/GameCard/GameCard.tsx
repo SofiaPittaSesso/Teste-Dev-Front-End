@@ -46,7 +46,7 @@ const GameCard = (props: gameCardProps) => {
 
     return (
         <div className={styles.card}>
-            <img src={imageURL} width={'250px'} alt='cuphead' />
+            <img src={imageURL} alt='cuphead' />
             <div className={styles.infoContainer}>
                 <p className={styles.gameTitle}>{title}</p>
                 <div className={styles.iconsContainer}>

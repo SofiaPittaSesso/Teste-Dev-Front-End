@@ -31,3 +31,10 @@
     cursor: pointer;
     color: #c3e7f3;
 }
+
+@media (max-width: 800px) {
+    .header {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}

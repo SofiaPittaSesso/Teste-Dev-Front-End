@@ -9,6 +9,10 @@
     margin-bottom: 10px;
 }
 
+.card>img {
+    width: 100%;
+}
+
 .infoContainer {
     margin-left: 20px;
 }
@@ -67,3 +71,31 @@
     overflow: hidden;
     outline: none;
 }
+
+@media (max-width: 900px) {
+    .card {
+        grid-template-columns: 3fr 70px 1fr;
+    }
+
+    .card>img {
+        display: none;
+    }
+
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gameTitle {
+        margin-top: 0;
+    }
+
+    .buttonsContainer {
+        flex-direction: column;
+        margin-right: 0px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {}
