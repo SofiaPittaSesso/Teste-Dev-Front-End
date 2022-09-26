@@ -1,0 +1,69 @@
+.card {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #231440;
+    display: grid;
+    grid-template-columns: 250px 1fr 120px 100px;
+    justify-content: center;
+    box-shadow: 4px 4px #443c55;
+    margin-bottom: 10px;
+}
+
+.infoContainer {
+    margin-left: 20px;
+}
+
+.gameTitle {
+    font-size: 1.2em;
+}
+
+.iconsContainer {
+    display: flex;
+}
+
+.iconsContainer>div {
+    margin: 2px;
+}
+
+.pricingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricingContainer>p {
+    margin: 7px 0;
+}
+
+.discountBox {
+    text-align: center;
+    color: #231440;
+    width: 50px;
+    height: 25px;
+    font-size: 18px;
+    background: #E216A4;
+    border-radius: 100px / 50px;
+}
+
+.listPrice {
+    font-size: 0.9em;
+    color: #c3e7f3;
+    text-decoration-line: line-through;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.buttonsContainer>button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
